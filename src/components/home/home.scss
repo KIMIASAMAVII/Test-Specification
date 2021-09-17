@@ -1,0 +1,72 @@
+.home {
+  position: relative;
+  top: 10px;
+
+  .container {
+    text-align: center;
+
+    .card {
+      border: 1px solid #4287f5;
+
+      input {
+        width: 90%;
+        height: 40px;
+      }
+      label {
+        float: left;
+      }
+
+      .card-header {
+        background-color: #4287f5;
+        color: #fff;
+        font-size: large;
+        font-weight: bold;
+      }
+      .btn-group {
+        width: 80%;
+      }
+      .form-control {
+        width: 90%;
+        float: right;
+        margin-right: 15px;
+      }
+    }
+
+    .save-btn {
+      background-color: lightskyblue;
+      border-radius: 5px;
+      border: none;
+      width: 80px;
+      height: 40px;
+      font-size: large;
+      font-weight: bold;
+      color: white;
+      float: right;
+
+      &:hover {
+        background-color: rgb(77, 151, 197);
+      }
+    }
+    .cancel-btn {
+      background-color: #c9c9c9;
+      border-radius: 5px;
+      border: none;
+      width: 80px;
+      height: 40px;
+      font-size: large;
+      font-weight: bold;
+      color: white;
+      margin-right: 15px;
+      float: right;
+
+      &:hover {
+        background-color: #919191;
+      }
+
+      a {
+        color: white;
+        text-decoration: none;
+      }
+    }
+  }
+}
